@@ -1,7 +1,40 @@
 body{
-    background-color: black;
+    background-color: #02030A;
 }
 h1{
     color: aliceblue;
     text-align: center;
+}
+header{
+    width: 100%;
+    background-color: grey;
+}
+
+.logo{
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+nav{
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+.banner{
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    background-color: grey;
+    margin: auto;
+
+}
+
+footer{
+    background-color: grey;
+    color: aliceblue;
+    width: 100%;
 }
