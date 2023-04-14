@@ -4,6 +4,10 @@ body{
 h1{
     color: aliceblue;
     text-align: center;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 3%;
 }
 header{
     width: 100%;
@@ -40,4 +44,23 @@ footer{
 }
 div{
     color: aliceblue;
+}
+h2{
+    text-align: center;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+}
+h3{
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+}
+p{
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 3%;
 }
