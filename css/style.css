@@ -1,5 +1,6 @@
 body{
     background-color: #02030A;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h1{
     color: aliceblue;
@@ -8,6 +9,7 @@ h1{
     padding-top: 1%;
     padding-bottom: 1%;
     padding-right: 3%;
+    font-size: 1.8em;
 }
 header{
     width: 100%;
@@ -51,16 +53,25 @@ h2{
     padding-top: 1%;
     padding-bottom: 1%;
     padding-right: 3%;
+    font-size: 1.6em;
 }
 h3{
     padding-left: 3%;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-right: 3%;
+    font-size: 1.4em;
 }
 p{
     padding-left: 3%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     padding-right: 3%;
+    line-height: 1.4em;
+    font-size: 1em;
+}
+
+.imagens{
+    display: block;
+    margin: auto;
 }
