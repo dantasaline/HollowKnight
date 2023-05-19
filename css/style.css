@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #02030A;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -74,4 +77,9 @@ p{
 .imagens{
     display: block;
     margin: auto;
+    width: 50%;
+}
+.meca{
+    width: 50%;
+    float: left;
 }
