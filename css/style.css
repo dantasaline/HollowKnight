@@ -83,3 +83,18 @@ p{
     width: 50%;
     float: left;
 }
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+  }
+ .col-6 {
+    width: 50%;
+}
+a:link{
+    color: aliceblue;
+}
+a:hover{
+    color: rgb(187, 220, 248);
+    font-size: 130%;
+}
