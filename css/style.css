@@ -99,3 +99,9 @@ a:hover{
     color: rgb(187, 220, 248);
     font-size: 130%;
 }
+li{
+    padding-left: 3%;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    padding-right: 3%;
+}
