@@ -105,3 +105,25 @@ li{
     padding-bottom: 0.2%;
     padding-right: 3%;
 }
+.table{
+    width: 100%;
+    font-family: monospace;
+    border-collapse: collapse;
+  }
+  
+  .table td, .table th {
+    border: 1px solid rgb(58, 54, 54);
+    padding: 8px;
+  }
+  
+  .table tr:nth-child(even){background-color: #222222;}
+  
+  .table tr:hover {background-color: rgb(68, 67, 67);}
+  
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #757272;
+    color: rgb(255, 255, 255);
+  }
