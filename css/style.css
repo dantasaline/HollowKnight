@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #02030A;
+    background-color: #000000;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h1{
@@ -16,16 +16,10 @@ h1{
 }
 header{
     width: 100%;
-    background-color: #1a1b25;
+    background-color: #1E2040;
 }
 
 .logo{
-    text-align: center;
-    color: aliceblue;
-    font-size: 1.5em;
-}
-
-nav{
     text-align: center;
     color: aliceblue;
     font-size: 1.5em;
@@ -37,21 +31,22 @@ nav{
 
 .container{
     width: 80%;
-    background-color: #1a1b25;
+    background-color: #1E2040;
     margin: auto;
 
 }
 
 footer{
-    background-color: #1a1b25;
+    background-color: #42475D;
     color: aliceblue;
     width: 100%;
+    text-align: center;
 }
 div{
     color: aliceblue;
 }
 h2{
-    text-align: center;
+    color: aliceblue;
     padding-left: 3%;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -68,67 +63,64 @@ h3{
 p{
     color: aliceblue;
     padding-left: 3%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     padding-right: 3%;
     line-height: 1.4em;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .imagens{
     display: block;
     margin: auto;
-    width: 50%;
+    width: 40%;
 }
+
 .meca{
-    width: 50%;
+    width: 40%;
     float: left;
+    padding-right: 1.5em;
 }
+
 .linha{
     display: flex;
     flex-flow: row wrap;
     text-align: center;
   }
+
  .col-6 {
     width: 50%;
 }
-a:link{
-    color: aliceblue;
-}
-a:hover{
-    color: rgb(187, 220, 248);
-    font-size: 130%;
-}
-li{
-    padding-left: 3%;
-    padding-top: 0.2%;
-    padding-bottom: 0.2%;
-    padding-right: 3%;
-}
+
 .table{
-    width: 100%;
+    margin: auto;
+    width: 95%;
     font-family: monospace;
     border-collapse: collapse;
 }
 .table td, .table th {
-    border: 1px solid rgb(58, 54, 54);
+    border: 1px solid rgb(82, 80, 88);
     padding: 8px;
   }
   
-.table tr:nth-child(even){background-color: #222222;}
+.table tr:nth-child(even){
+    background-color: #222222;
+}
   
-.table tr:hover {background-color: rgb(68, 67, 67);}
+.table tr:hover {
+    background-color: rgb(72, 72, 75);
+}
   
 .table th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #757272;
+    background-color: #000000;
     color: rgb(255, 255, 255);
 }
  
 .table td, .table th {
-    border: 1px solid rgb(55, 58, 54);
+    border: 1px solid rgb(82, 80, 88);
     padding: 8px;
     color: aliceblue;
 }
@@ -138,13 +130,42 @@ li{
 }
   
 .table tr:hover {
-    background-color: rgb(67, 68, 67);
+    background-color: rgb(80, 80, 82);
 }
-  
-.table th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: rgb(10, 16, 8);
-    color: rgb(255, 255, 255);
+
+
+.menu ul{
+    padding: 0;
+    list-style: none;
+    background-color: #42475D;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a {
+    padding: 1%;
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+.menu ul li a:hover{
+    background-color: #1E2040;
+    transition: background .3s;
+}
+
+.ativo{
+    background-color: #1E2040;
+}
+
+.logo{
+    width: 30%;
+    margin: auto;
+    display: block ;
+}
+
+.social{
+    width: 8%;
+    padding-left: 2%;
 }
