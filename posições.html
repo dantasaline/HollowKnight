@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Posições</title>
+	<style>
+		.topo{
+			text-align: center;
+			color: black;
+			background-color: palevioletred;
+			position: static;
+		}
+
+		.normal{
+			background-color: yellow;
+			width: 100%;
+			position: relative;
+		}
+
+		.container{
+			width: 100%;
+			background-color: black;
+		}
+
+		.topodir{
+			position: absolute;
+			color: coral;
+			background-color: gray;
+			padding: 1%;
+			width: 10%;
+			right: 0;
+		}
+
+		.topoesq{
+			position: absolute;
+			width: 10%;
+			color: darkkhaki;
+            background-color: brown;
+            padding: 1%;
+		}
+
+		.baixoesq{
+			position: absolute;
+			width: 10%;
+			color: pink;
+            background-color: green;
+            padding: 1%;
+			bottom: 10px;
+		}
+
+		.baixodir{
+			position: absolute;
+			width: 10%;
+			color: purple;
+            background-color: aliceblue;
+            padding: 1%;
+			bottom: 10px;
+			right: 0;
+		}
+
+		.centro{
+			bottom: 50%;
+			left: 50%;
+			color: aliceblue;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1 class="topo">Home</h1>
+		<div class="normal">
+			<p style="border-color: red; border-style: groove; color: blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nobis molestiae quod aperiam odit cum beatae aliquam ducimus! Quia molestiae dicta optio debitis quod ex omnis dolorum dolore soluta aut?</p>
+        	<p style="border-color: red; border-style: groove; color: blue;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex esse rerum dolorum debitis minima quam, quaerat in illum dolorem qui deserunt voluptatum ad. Perspiciatis veniam corporis explicabo inventore magnam debitis.</p>
+		</div>
+	</header>
+	<div class="main">
+		<div class="container">
+			<h1>Teste</h1>
+			<div class="topodir">topo direita</div>
+			<div class="topoesq">topo esquerda</div>
+			<div class="baixoesq">baixo esquerda</div>
+			<div class="baixodir">baixo direita</div>
+			<div class="centro">centro</div>
+		</div>
+	</div>
+</body>
+</html>
