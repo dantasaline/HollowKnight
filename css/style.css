@@ -139,7 +139,7 @@ p{
         margin-top: 8%;
     }
     .logo{
-        width: 30%;
+        width: 15%;
         float: left;
         padding-left: 5%;
     }
@@ -148,10 +148,23 @@ p{
 @media screen and (max-width:600px) {
     .logo{
         text-align: center;
+        width: 50%;
+        margin: auto;
+        display: block;
     }
 
     .banner{
-        margin-top: 40%;
+        margin-top: 63%;
+    }
+    .menu{
+        padding-right: 2em;
+        font-size: 1em;
+    }
+    .imagens{
+        width: 80%;
+    }
+    .meca{
+        width: 70%;
     }
 }
 
@@ -168,7 +181,7 @@ p{
 
 .menu{
     top: 2em;
-    text-align: right;
+    text-align: center;
 }
 
 .menu a{
@@ -178,13 +191,12 @@ p{
 .menu a:hover:not(.ativo){
     background-color: #1E2040;
     display: inline-block;
-    width: 12%;
+    width: 7%;
     border-radius: 5%;
     text-align: center;
 }
 
 .logo{
-    width: 15%;
     padding-left: 5%;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -203,4 +215,15 @@ p{
 
 .pos a:hover{
     text-decoration: underline;
+}
+
+@media (max-width:900px) {
+
+    .linha {
+        flex-direction: column;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
 }
