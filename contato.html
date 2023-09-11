@@ -18,7 +18,7 @@
 			<div>
 				<nav class="menu">
 				<ul>
-				  <li><a class="ativo" href="index.html">Menu</a></li>
+				  <li><a href="index.html">Menu</a></li>
 				  <li><a href="mecanica.html">Mecânica</a></li>
 				  <li><a href="cidades.html">Cidades</a></li>
 				  <li><a href="trilha.html">Trilhas</a></li>
@@ -29,6 +29,61 @@
 			</div>
 		</div>
 	</header>
+	<div class="container">
+		<form action="#">
+			<div class="row">
+				<div class="col-25">
+				  	<label for="nome">Nome completo</label>
+				</div>
+				<div class="col-75">
+				  	<input type="text" id="nome" name="nome" placeholder="Digite o seu nome...">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="#">Número de telefone</label>
+				</div>
+				<div class="col-75">
+					<input type="tel" name="telefone" id="telefone" placeholder="(12) 34567-8900">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+				  	<label for="#">Email</label>
+				</div>
+				<div class="col-75">
+				  	<input type="email" id="email" name="email" placeholder="Digite o seu Email...">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="#">Estado</label>
+				</div>
+				<div class="col-75">
+				  	<select id="estado" name="estado">
+					<option value="SP">SP</option>
+					<option value="RJ">RJ</option>
+					<option value="MG">MG</option>
+					<option value="BA">BA</option>
+					<option value="MS">MS</option>
+				  	</select>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+				  	<label for="#">Reclamações</label>
+				</div>
+				<div class="col-75">
+				  	<textarea id="reclamações" name="reclamações" placeholder="Escreva algo..." style="height:200px"></textarea>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<input type="submit" value="Enviar">
+			</div>
+		</form>
+
+	</div>
 	<footer>
 		<p>Desenvolvido por Aline Dantas</p>
     <a href="https://github.com/dantasaline"><img class="social" src="img/github.png" alt=""></a>

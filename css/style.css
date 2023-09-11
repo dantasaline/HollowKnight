@@ -31,6 +31,7 @@ footer{
     color: aliceblue;
     width: 100%;
     text-align: center;
+    bottom: 0;
 }
 div{
     color: aliceblue;
@@ -123,29 +124,29 @@ p{
     background-color: rgb(80, 80, 82);
 }
 
-@media screen and (min-width:601px) {
+@media screen and (min-width:791px) {
     header{
         flex-direction: row;
     }
     .menu{
-        position: absolute;
         width: 70%;
+        padding-top: 2em;
     }
     .menu ul li{
         display: inline;
         margin-left: 1%;
     }
     .banner{
-        margin-top: 8%;
+        margin-top: 5%;
     }
     .logo{
-        width: 15%;
+        width: 10%;
         float: left;
         padding-left: 5%;
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:790px) {
     .logo{
         text-align: center;
         width: 50%;
@@ -154,7 +155,7 @@ p{
     }
 
     .banner{
-        margin-top: 63%;
+        margin-top: 56%;
     }
     .menu{
         padding-right: 2em;
@@ -180,7 +181,7 @@ p{
 }
 
 .menu{
-    top: 2em;
+
     text-align: center;
 }
 
@@ -203,9 +204,9 @@ p{
 }
 
 .social{
-    width: 4%;
+    width: 3%;
     display: inline;
-    padding: 1%;
+    padding: 0.5%;
 }
 
 .pos{
@@ -225,5 +226,71 @@ p{
 
     .col-6 {
         width: 100%;
+    }
+}
+
+form{
+    padding-top: 10%;
+    padding-bottom: 6%;
+}
+
+label {
+    padding: 4%;
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+input[type=text], select, textarea, input[type=email], input[type=tel]{
+    width: 90%;
+    padding: 1%;
+    border: 1px solid #1E2040;
+    border-radius: 15px;
+    resize: vertical;
+}
+
+ 
+.col-25{
+    width: 25%;
+    float: left;
+    margin-top: 6px;
+
+}
+
+.col-75{
+    width: 75%;
+    float: left;
+    margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type=submit] {
+  background-color: #3c4158;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5em;
+  cursor: pointer;
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+input[type=submit]:hover {
+  background-color: #313357;
+  font-weight: bolder;
+}
+  
+@media screen and (max-width: 790px) {
+    .col-25, .col-75, input[type=reclamações] {
+      width: 100%;
+      margin-top: 0;
+    }
+    form{
+        margin-top: 20em;
     }
 }
