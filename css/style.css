@@ -277,7 +277,7 @@ input[type=submit] {
   cursor: pointer;
   float: right;
   margin-right: 10px;
-  margin-bottom: 10px;
+
 }
 
 input[type=submit]:hover {
