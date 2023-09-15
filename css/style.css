@@ -13,7 +13,6 @@ h1{
     padding-bottom: 1%;
     padding-right: 3%;
     font-size: 1.8em;
-    background-color: #42475D;
 }
 
 .banner{
@@ -74,6 +73,7 @@ p{
     width: 40%;
     float: left;
     padding-right: 1.5em;
+    padding-bottom: 0.5em;
 }
 
 .linha{
@@ -151,7 +151,7 @@ a:hover .spotify{
     }
 
     .logo{
-        width: 10%;
+        width: 17%;
         float: left;
         padding-left: 5%;
     }
@@ -199,7 +199,7 @@ a:hover .spotify{
 .menu a:hover:not(.ativo){
     background-color: #1E2040;
     display: inline-block;
-    width: 7%;
+    width: 10%;
     border-radius: 5%;
     text-align: center;
 }
